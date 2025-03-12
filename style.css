@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    /* background-image: url('/third.jpg'); */
+  background-image: url(/khanna.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 20px;
+ 
+}
+.inputContainer {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 10px;
+}
+  .inputContainer h1{
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    border: none;
+
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.inputContainer input {
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 16px;
+}
+/* first input stlying */
+.inputContainer input[type="text"] {
+  width: 50%;
+  height: 30px;
+ background: transparent;
+ border: 1px solid rgb(22, 184, 233);
+ box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+ background-color: rgba(215, 241, 232, 0.767);
+}
+.inputContainer input[type="button"] {
+  background-color: rgb(107, 91, 230);
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 5px 24px;
+  text-align: center;
+ 
+}
+.inputContainer input[type="button"]:hover {
+  background-color: rgb(13, 30, 190);
+}
+ul {
+  /* width: 50%; */
+  /* max-width: 40%; */
+  width: 40%;
+  height: 10px;
+}
+ul li {
+  list-style: none;
+  border: 0.125px solid #e923c5;
+  margin-block: 5px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  
+}
+/* p puri width le li */
+ul li p {
+  flex-grow: 1;
+  padding: 2px;
+  background:transparent;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  
+  border-radius: 10px;
+  /* border: 0.4px solid black; */
+ 
+}
+
+.btn {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 2px 4px;
+  padding: 6px;
+}
+.deleteBtn {
+  color: rgb(102, 122, 122);
+  background:transparent;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+ 
+}
+.deleteBtn:hover{
+    background-color: #223cbf;
+ 
+}
+
+ul li:hover {
+  background-color: #c4c4d2;
+  transition: background-color 0.9s;
+}
